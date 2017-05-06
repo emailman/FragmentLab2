@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentLab</string>
+    <string name="weight_of_the_package">Weight of the Package</string>
+    <string name="in_ounces">(in ounces)</string>
+    <string name="_0">0</string>
+    <string name="_0_00">$0.00</string>
+    <string name="base_cost">Base Cost:</string>
+    <string name="added_cost">Added Cost:</string>
+    <string name="total_shipping_cost">Total Shipping Cost:</string>
+</resources>

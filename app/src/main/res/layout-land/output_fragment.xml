@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd699" >
+
+    <TextView
+        android:id="@+id/tvBaseCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvAddedCost"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvAddedCost"
+        android:layout_marginTop="218dp"
+        android:gravity="top|center_vertical|center_horizontal|start"
+        android:text="Base Cost:"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTotalShippingCost"
+        android:layout_alignBottom="@+id/tvTotalShippingCost"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
+        android:layout_toEndOf="@+id/tvTotalShippingCost"
+        android:layout_toRightOf="@+id/tvTotalShippingCost"
+        android:text="$0.00"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAddedCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTotalShippingCost"
+        android:layout_alignStart="@+id/tvTotalShippingCost"
+        android:layout_below="@+id/tvBaseCost"
+        android:layout_marginTop="54dp"
+        android:text="Added Cost:"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvBaseCost"
+        android:layout_alignBottom="@+id/tvBaseCost"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:text="$0.00"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalShippingCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvAddedCost"
+        android:layout_marginLeft="109dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="38dp"
+        android:text="Total Shipping Cost"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvAddedCost"
+        android:layout_alignBottom="@+id/tvAddedCost"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:text="$0.00"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
